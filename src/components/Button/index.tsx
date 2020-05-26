@@ -8,6 +8,7 @@ const StyledButton = styled.button`
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
 `;
 
 interface IButtonProps {
