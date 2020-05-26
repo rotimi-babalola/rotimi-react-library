@@ -1,11 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 import Button from './components/Button';
 
+const StyledDiv = styled.div`
+  margin: auto;
+  width: 50%;
+`;
+
 const App = () => (
-  <div>
+  <StyledDiv>
     <h1>Hello world!!</h1>
     <Button>Click me</Button>
-  </div>
+  </StyledDiv>
 );
 
 export default App;
