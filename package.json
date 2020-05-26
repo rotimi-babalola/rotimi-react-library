@@ -1,0 +1,24 @@
+{
+  "name": "rotimi-react-library",
+  "version": "1.0.0",
+  "description": "React Library components shared to Bit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotimi-babalola/rotimi-react-library.git"
+  },
+  "keywords": [
+    "bit",
+    "react",
+    "typescript"
+  ],
+  "author": "Rotimi Babalola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotimi-babalola/rotimi-react-library/issues"
+  },
+  "homepage": "https://github.com/rotimi-babalola/rotimi-react-library#readme"
+}
