@@ -1,5 +1,11 @@
 import React from 'react';
+import Button from './components/Button';
 
-const App = () => <h1>Hello world!!</h1>;
+const App = () => (
+  <div>
+    <h1>Hello world!!</h1>
+    <Button>Click me</Button>
+  </div>
+);
 
 export default App;
