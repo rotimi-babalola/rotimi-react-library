@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxhUy dMDaXr"
+  >
+    <h1
+      style="color: palevioletred;"
+    >
+      Create Account
+    </h1>
+    <form
+      data-testid="submit-form"
+    >
+      <div
+        class="sc-AxhCb dWnWvi"
+      >
+        <label
+          class="sc-AxjAm kfBTCj"
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          class="sc-AxirZ jHZhCa"
+          data-testid="username"
+          name="username"
+          placeholder="Type your username"
+          required=""
+          type="text"
+        />
+      </div>
+      <div
+        class="sc-AxhCb dWnWvi"
+      >
+        <label
+          class="sc-AxjAm kfBTCj"
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          class="sc-AxirZ jHZhCa"
+          data-testid="password"
+          name="passwprd"
+          placeholder="Password"
+          required=""
+          type="password"
+        />
+      </div>
+      <div
+        class="sc-AxhCb dWnWvi"
+      >
+        <label
+          class="sc-AxjAm kfBTCj"
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          class="sc-AxirZ jHZhCa"
+          data-testid="email"
+          name="email"
+          placeholder="Enter your email"
+          required=""
+          type="email"
+        />
+      </div>
+      <button
+        class="sc-AxiKw itEKzZ"
+        data-testid="submit-button"
+        type="submit"
+      >
+        Sign in
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

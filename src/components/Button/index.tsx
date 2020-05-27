@@ -12,10 +12,13 @@ const StyledButton = styled.button`
 
 interface IButtonProps {
   onClick?: () => void;
+  type?: string;
 }
 
-const Button: React.FC<IButtonProps> = ({ children, onClick }) => (
-  <StyledButton onClick={onClick}>{children}</StyledButton>
+const Button: React.FC<IButtonProps> = ({ children, onClick, ...props }) => (
+  <StyledButton onClick={onClick} {...props}>
+    {children}
+  </StyledButton>
 );
 
 export default Button;

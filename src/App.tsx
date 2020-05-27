@@ -12,13 +12,7 @@ const StyledDiv = styled.div`
 const App = () => (
   <StyledDiv>
     <h1 style={{ color: 'palevioletred' }}>Create Account</h1>
-    <Form
-      onSubmit={evt => {
-        evt.preventDefault();
-        // eslint-disable-next-line no-alert
-        alert('Form submitted!!');
-      }}
-    />
+    <Form />
   </StyledDiv>
 );
 
