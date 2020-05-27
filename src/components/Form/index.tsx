@@ -10,11 +10,11 @@ const ContainerDiv = styled.div`
 `;
 
 interface IFormProps {
-  onSubmit: (evt: React.FormEvent<HTMLFormElement>) => void;
+  onSubmit?: (evt: React.FormEvent<HTMLFormElement>) => void;
 }
 
 const Form: React.FC<IFormProps> = ({ onSubmit }) => (
-  <form onSubmit={onSubmit}>
+  <form onSubmit={onSubmit} data-testid="submit-form">
     <ContainerDiv>
       <Label htmlFor="username">Username</Label>
       <Input
@@ -22,6 +22,7 @@ const Form: React.FC<IFormProps> = ({ onSubmit }) => (
         placeholder="Type your username"
         type="text"
         isRequired
+        data-testid="username"
       />
     </ContainerDiv>
 
@@ -32,6 +33,7 @@ const Form: React.FC<IFormProps> = ({ onSubmit }) => (
         placeholder="Password"
         type="password"
         isRequired
+        data-testid="password"
       />
     </ContainerDiv>
 
@@ -42,9 +44,12 @@ const Form: React.FC<IFormProps> = ({ onSubmit }) => (
         placeholder="Enter your email"
         type="email"
         isRequired
+        data-testid="email"
       />
     </ContainerDiv>
-    <Button>Sign in</Button>
+    <Button data-testid="submit-button" type="submit">
+      Sign in
+    </Button>
   </form>
 );
 

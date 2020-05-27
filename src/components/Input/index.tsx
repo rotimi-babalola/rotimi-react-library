@@ -27,6 +27,7 @@ const Input: React.FC<IInputProps> = ({
   placeholder,
   type,
   isRequired,
+  ...props
 }) => (
   <StyledInput
     onChange={onChange}
@@ -34,6 +35,7 @@ const Input: React.FC<IInputProps> = ({
     name={name}
     placeholder={placeholder}
     required={isRequired}
+    {...props}
   />
 );
 
