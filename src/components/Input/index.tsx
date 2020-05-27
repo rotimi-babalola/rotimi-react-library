@@ -17,14 +17,23 @@ interface IInputProps {
   onChange?: (evt: React.ChangeEvent<HTMLInputElement>) => void;
   name: string;
   placeholder?: string;
+  type: 'number' | 'text' | 'password' | 'email';
+  isRequired: boolean;
 }
 
-const Input: React.FC<IInputProps> = ({ onChange, name, placeholder }) => (
+const Input: React.FC<IInputProps> = ({
+  onChange,
+  name,
+  placeholder,
+  type,
+  isRequired,
+}) => (
   <StyledInput
     onChange={onChange}
-    type="text"
+    type={type}
     name={name}
     placeholder={placeholder}
+    required={isRequired}
   />
 );
 

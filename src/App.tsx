@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Button from './components/Button';
-import Label from './components/Label';
-import Input from './components/Input';
+import Form from './components/Form';
 
 const StyledDiv = styled.div`
   margin: auto;
@@ -13,12 +11,13 @@ const StyledDiv = styled.div`
 
 const App = () => (
   <StyledDiv>
-    <h1>Hello world!!</h1>
-    <div>
-      <Label htmlFor="username">Username</Label>
-      <Input name="username" placeholder="Type your name" />
-      <Button>Click me</Button>
-    </div>
+    <h1 style={{ color: 'palevioletred' }}>Create Account</h1>
+    <Form
+      onSubmit={evt => {
+        evt.preventDefault();
+        alert('Form submitted!!');
+      }}
+    />
   </StyledDiv>
 );
 

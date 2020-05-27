@@ -7,7 +7,10 @@ interface ILabelProps {
 
 const StyledLabel = styled.label`
   font-size: 16px;
+  color: palevioletred;
   font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  margin-bottom: 5px;
 `;
 
 const Label: React.FC<ILabelProps> = ({ children, htmlFor }) => (
