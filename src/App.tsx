@@ -15,6 +15,7 @@ const App = () => (
     <Form
       onSubmit={evt => {
         evt.preventDefault();
+        // eslint-disable-next-line no-alert
         alert('Form submitted!!');
       }}
     />
