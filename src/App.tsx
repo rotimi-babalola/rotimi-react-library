@@ -1,11 +1,24 @@
 import React from 'react';
-import Button from './components/Button';
+import styled from 'styled-components';
+
+import Form from './components/Form';
+
+const StyledDiv = styled.div`
+  margin: auto;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+`;
 
 const App = () => (
-  <div>
-    <h1>Hello world!!</h1>
-    <Button>Click me</Button>
-  </div>
+  <StyledDiv>
+    <h1 style={{ color: 'palevioletred' }}>Create Account</h1>
+    <Form
+      onSubmit={evt => {
+        evt.preventDefault();
+        alert('Form submitted!!');
+      }}
+    />
+  </StyledDiv>
 );
 
 export default App;
