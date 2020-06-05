@@ -12,7 +12,7 @@ module.exports = {
   coveragePathIgnorePatterns: [
     '<rootDir>/node_modules',
     '<rootDir>/src/@types/',
-    '<rootDir>/src/index.tsx',
+    '<rootDir>/src/index.ts',
     '.*.snap.*',
   ],
   coverageReporters: ['text'],
