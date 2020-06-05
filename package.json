@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --open",
-    "build": "webpack --mode=production",
-    "lint": "eslint . --ext .js,.ts,.tsx"
+    "build": "tsc",
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "deploy": "npm publish"
   },
   "repository": {
     "type": "git",
