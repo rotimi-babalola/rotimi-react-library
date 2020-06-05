@@ -68,5 +68,8 @@
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@rotimi-babalola"
   }
 }
