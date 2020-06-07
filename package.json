@@ -1,6 +1,6 @@
 {
   "name": "rotimi-react-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Library components shared to Bit",
   "main": "dist/index.js",
   "scripts": {
