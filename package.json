@@ -2,7 +2,7 @@
   "name": "rotimi-react-library",
   "version": "1.0.1",
   "description": "React Library components shared to Bit",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc",
